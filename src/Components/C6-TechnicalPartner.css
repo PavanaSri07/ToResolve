@@ -1,0 +1,112 @@
+/* AboutBanner.css */
+
+#C6-Tech {
+    background: #f8f5f5;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.C6-Head {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 26px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-style: none !important;
+}
+
+.C6-Matter {
+    text-align: justify;
+}
+
+.C6button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    background-color: #1778f2;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.C6button:hover {
+    background-color: #0e5aa7;
+}
+
+.aboutbannerImg2 {
+    width: 100%;
+    height: auto;
+}
+
+.C6-Video {
+    position: relative;
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+}
+
+.VideoCont {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+@media (max-width: 767.98px) {
+    .col-lg-6,
+    .col-lg-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .col-lg-6 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .col-12.pl-0 {
+        padding-left: 0 !important;
+    }
+    .C6-Video {
+        text-align: center;
+    }
+    .col-lg-3 {
+        display: block !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .C6-Head {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .C6-Matter {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .C6button {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutbannerImg2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

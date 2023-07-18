@@ -1,0 +1,138 @@
+.C2-Counterup {
+    padding: 80px 0;
+    background-size: cover;
+    /* margin-top: 20px!important; */
+    margin-bottom: 20px !important;
+}
+
+.C2-Counterup .C2-heading {
+    position: relative;
+    color: #044088 !important;
+    font-size: 26px !important;
+    margin-bottom: 1.5em;
+}
+
+.C2-Counterup .sub-cont_txt {
+    margin-bottom: 0;
+}
+
+.C2-Counterup .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.C2-Counterup .col-lg-5 {
+    order: 1;
+}
+
+.C2-Counterup .col-lg-7 {
+    order: 2;
+}
+
+.C2-Counterup .Count-Container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #c4c0c0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cont {
+    font-size: 18px!important;
+    font-family: Arial, sans-serif !important;
+}
+
+.C2-Counterup .Count-Container:hover {
+    transform: translateY(-5px);
+}
+
+.C2-Counterup .Count-Container .cont {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.C2-Counterup .Count-Container .Count-Container-Head {
+    display: flex;
+    align-items: center;
+}
+
+.C2-Counterup .Count-Container .Count-Container-Head .count {
+    font-size: 36px;
+    font-weight: bold;
+    color: #044088;
+    margin-right: 5px;
+}
+
+.C2-Counterup .Count-Container .Count-Container-Head span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 2px;
+}
+
+@media (max-width: 991.98px) {
+    .C2-Counterup {
+        padding: 60px 0;
+    }
+}
+
+
+/* @media (max-width: 767.98px) {
+    .C2-Counterup .C2-heading {
+        font-size: 28px;
+        margin-bottom: 1em;
+    }
+    .C2-Counterup .Count-Container .Count-Container-Head {
+        font-size: 24px;
+    }
+    .C2-Counterup .Count-Container .Count-Container-Head .count {
+        font-size: 36px;
+    }
+} */
+
+@media (max-width: 767.98px) {
+    .C2-Counterup .row {
+        flex-direction: column;
+    }
+    .C2-Counterup .col-lg-5 {
+        order: 2;
+    }
+    .C2-Counterup .col-lg-7 {
+        order: 1;
+    }
+    .C2-Counterup .row .col-lg-7 .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .C2-Counterup {
+        padding: 40px 0;
+    }
+    .C2-Counterup .C2-heading {
+        font-size: 24px;
+        margin-bottom: 0.5em;
+    }
+    .C2-Counterup .Count-Container .Count-Container-Head {
+        font-size: 20px;
+    }
+    .C2-Counterup .Count-Container .Count-Container-Head .count {
+        font-size: 28px;
+    }
+    .C2-Counterup .row {
+        flex-direction: column;
+    }
+    .C2-Counterup .col-lg-5,
+    .C2-Counterup .col-lg-7 {
+        order: initial;
+    }
+}

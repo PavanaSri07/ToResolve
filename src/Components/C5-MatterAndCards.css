@@ -1,0 +1,66 @@
+.C5-Industries {
+    margin: 10px;
+    padding: 10px 20px;
+    max-height: 200px;
+    text-align: center;
+    border-radius: 8px 40px;
+    -webkit-box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0/6%), 0 8.2px 8.9px -30px rgb(0 0 0/7%), 0 25px 40px -30px rgb(0 0 0/20%);
+    box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0/6%), 0 8.2px 8.9px -30px rgb(0 0 0/7%), 0 25px 40px -30px rgb(0 0 0/20%);
+    background-color: #fff;
+    box-shadow: 0 10px 60px 0 rgb(0 0 0/7%);
+    border-bottom: 3px solid #001279;
+    border-top: 3px solid #fff;
+    transition: 1s ease
+}
+
+.C5-Industries:hover {
+    border-bottom: 3px solid #4f4f4f;
+    border-top: 3px solid #001279;
+    position: relative;
+    transform: translate3d(0, -8px, 0)
+}
+
+.C5txt {
+    font-size: 26px!important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.C5-svg {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    position: relative
+}
+
+.C5-Industries .icon-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.C5-Industries a {
+    text-decoration: none;
+}
+
+.C5-Industries a:hover {
+    text-decoration: none;
+}
+
+.C5-Industries a:hover p {
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+    .C5-svg {
+        width: 50%
+    }
+    .C5-Industries p {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 600
+    }
+    .C5-Industries {
+        max-height: 170px
+    }
+}

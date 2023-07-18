@@ -1,0 +1,225 @@
+.C4-Scrolling {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    background: #f7f7f7;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.C4-Scrolling .C4-head {
+    position: relative;
+    color: #044088 !important;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.C4-Scrolling .C4-para {
+    margin-bottom: 20px;
+}
+
+.C4-Scrolling #C4-ImgScrolling {
+    margin-bottom: 2em;
+}
+
+.C4-Scrolling .C4-ScrollingImg {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.C4-Scrolling .C4-ScrollingImg:first-child {
+    display: block;
+}
+
+.C4-Scrolling .C4-ScrollingImg img {
+    width: 100%;
+    height: auto;
+}
+
+.C4-Scrolling .C4-Imgout {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.C4-Scrolling #C4-Id-Imgout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.C4-Scrolling .C4-Individual-Img {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.C4-Scrolling .C4-Individual-Img .C4-Content {
+    text-align: left;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 0px 10px 50px rgba(35, 49, 95, 0.1);
+    border-radius: 10px;
+}
+
+.C4-Scrolling .C4-Individual-Img .C4-Content .C4-SlideHead {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.C4-Scrolling .C4-Individual-Img .C4-Content .C4-para {
+    color: #777;
+    margin-bottom: 1em;
+}
+
+.C4-Scrolling .C4-Individual-Img .C4-Content .cont3 {
+    color: #555;
+    line-height: 1.5;
+}
+
+
+/* .C4-Scrolling .home-started-btn a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #044088;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out;
+} */
+
+
+/* .C4-Scrolling .home-started-btn a:hover {
+    background-color: #022c60;
+} */
+
+.C4-Scrolling .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.C4-Scrolling .slick-dots li {
+    margin: 0 5px;
+}
+
+.C4-Scrolling .slick-dots li button {
+    position: relative;
+    width: 10px;
+    height: 2px;
+    background-color: #044088;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.C4-Scrolling .slick-dots li button::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    background-color: #044088;
+}
+
+.C4-Scrolling .slick-dots li button::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    background-color: #044088;
+}
+
+.C4-Scrolling a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .C4-Scrolling .C4-ScrollingImg {
+        display: block;
+    }
+    .C4-Scrolling .C4-Individual-Img {
+        display: none;
+    }
+    .C4-Scrolling .C4-ScrollingImg img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Remove underline from links */
+
+
+/* @media (max-width: 767px) {
+    .C4-Scrolling .C4-ScrollingImg {
+        display: block;
+    }
+    .C4-Scrolling .C4-Individual-Img {
+        display: none;
+    }
+    .C4-Scrolling .C4-ScrollingImg img {
+        width: 100%;
+        height: auto;
+    }
+} */
+
+@media (max-width: 767px) {
+    .C4-Scrolling {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .C4-Scrolling .C4-head {
+        font-size: 20px;
+        margin-bottom: 1em;
+    }
+    .C4-Scrolling .C4-para {
+        margin-bottom: 2em;
+    }
+    .C4-Scrolling #C4-ImgScrolling {
+        margin-bottom: 1em;
+    }
+    .C4-Scrolling .C4-ScrollingImg {
+        display: block;
+    }
+    .C4-Scrolling .C4-Individual-Img {
+        display: none;
+    }
+    .C4-Scrolling .C4-ScrollingImg img {
+        width: 100%;
+        height: auto;
+    }
+    .C4-Scrolling .C4-Individual-Img .C4-Content {
+        padding: 1em;
+    }
+    .C4-Scrolling .C4-Individual-Img .C4-Content .C4-SlideHead {
+        font-size: 18px;
+        margin-bottom: 0.5em;
+    }
+    .C4-Scrolling .C4-Individual-Img .C4-Content .C4-para {
+        margin-bottom: 0.5em;
+    }
+    .C4-Scrolling .C4-Individual-Img .C4-Content .cont3 {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .C4-Scrolling .C4Button a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
